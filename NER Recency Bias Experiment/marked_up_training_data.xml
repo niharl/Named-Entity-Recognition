@@ -1,0 +1,237 @@
+ACN: 1631678 (1 of 50)
+
+Time / Day
+Date : 201903
+Local Time Of Day : 1201-1800
+
+Place
+Locale Reference.ATC Facility : ZZZ.ARTCC
+State Reference : US
+Altitude.MSL.Single Value : 30000
+
+Environment
+Flight Conditions : VMC
+Light : Daylight
+
+<aircraft>Aircraft</aircraft>
+Reference : X
+ATC / Advisory.Center : ZZZ
+<aircraft>Aircraft</aircraft> Operator : Air Carrier
+Make Model Name : <aircraft>EMB ERJ 190/195 ER/LR</aircraft>
+Crew Size.Number Of Crew : 2
+Operating Under FAR Part : Part 121
+Flight Plan : IFR
+Mission : Passenger
+Nav In Use : FMS Or <part>FMC</part>
+Flight Phase : Cruise
+Airspace.Class A : ZZZ
+
+Component
+<aircraft>Aircraft</aircraft> Component : <part>Rudder</part>
+<aircraft>Aircraft</aircraft> Reference : X
+Problem : <failure>Malfunctioning</failure>
+
+Person
+Reference : 1
+Location Of Person.<aircraft>Aircraft</aircraft> : X
+Location In <part>Aircraft : <part>Flight Deck</part>
+Reporter Organization : Air Carrier
+Function.Flight Crew : Captain
+Function.Flight Crew : Pilot Flying
+Qualification.Flight Crew : Instrument
+Qualification.Flight Crew : Air Transport Pilot (ATP)
+Qualification.Flight Crew : Multiengine
+Experience.Flight Crew.Total : 10000
+ASRS Report Number.Accession Number : 1631678
+Human Factors : <cause>Confusion</cause>
+Human Factors : Training / Qualification
+Human Factors : <cause>Troubleshooting</cause>
+
+Events
+Anomaly.<aircraft>Aircraft</aircraft> Equipment Problem : Critical
+Detector.Person : Flight Crew
+When Detected : In-flight
+Result.Flight Crew : Diverted
+Result.Flight Crew : FLC Overrode Automation
+Result.Flight Crew : Requested ATC Assistance / Clarification
+Result.Flight Crew : Landed in Emergency Condition
+Result.Air Traffic Control : Provided Assistance
+
+Assessments
+Contributing Factors / Situations : <aircraft>Aircraft</aircraft>
+Primary Problem : <aircraft>Aircraft</aircraft>
+
+Narrative: 1
+While at FL300 we experienced <failure>multiple uncommanded rudder deflections.</failure> The first occurred over a waypoint and was very subtle. We were fortunate because due to the first event I maintained positive contact with the <part>flight controls.</part> The second event was more violent and resulted in an <failure>undesired aircraft state.</failure> By referencing the <part>turn and slip coordinator</part> and our own senses, we knew the <aircraft>aircraft</aircraft> was <failure>"cross controlled".</failure> I pressed and held the <part>quick disconnect button</part> and took control of the <part>aircraft.</part> We immediately [requested priority handling] and requested a diversion to ZZZ. Unfortunately there was no <part>EICAS</part> [<part>Engine Indicating and Crew Alerting System</part>] messages to provide an appropriate course of action. We realized it was a <failure>rudder issue</failure> so I felt it was wise to slow the <aircraft>aircraft</aircraft> to 250 knots and minimize bank angles to 10 degrees or less while turning the <part>aircraft.</part> There was no apparent incorrect <part>rudder</part> trim and realized that the problem was due to <failure>uncommanded rudder deflections.</failure> While being vectored for the approach, I transferred <part>controls</part> to the First Officer and referenced the QRC and QRH for any guidance. We found that there was no action to be taken and we elected to land with <part>flaps</part> full. A successful approach and landing was made resulting in no damage to the <aircraft>aircraft</aircraft> or injuries. Upon landing we received a Flight Control No Dispatch <part>EICAS</part> message. 
+
+Synopsis
+EMB190 Captain reported <failure>uncommanded rudder deflection</failure> in cruise flight resulting in a diversion.
+
+
+ACN: 1629282 (2 of 50)
+
+Time / Day
+Date : 201903
+
+Place
+Locale Reference.Airport : ZZZ.Airport
+State Reference : US
+Altitude.MSL.Single Value : 17000
+
+<aircraft>Aircraft</aircraft>
+Reference : X
+ATC / Advisory.Center : ZZZ
+<aircraft>Aircraft</aircraft> Operator : Air Carrier
+Make Model Name : <aircraft>B767-300</aircraft> and 300 ER
+Crew Size.Number Of Crew : 2
+Operating Under FAR Part : Part 121
+Flight Plan : IFR
+Mission : Cargo / Freight
+Flight Phase : Cruise
+Airspace.Class A : ZZZ
+
+Person : 1
+Reference : 1
+Location Of Person.<aircraft>Aircraft</aircraft> : X
+Location In <aircraft>Aircraft</aircraft> : <part>Flight Deck</part>
+Reporter Organization : Air Carrier
+Function.Flight Crew : Pilot Not Flying
+Function.Flight Crew : First Officer
+Qualification.Flight Crew : Air Transport Pilot (ATP)
+Qualification.Flight Crew : Multiengine
+Qualification.Flight Crew : Instrument
+ASRS Report Number.Accession Number : 1629282
+Human Factors : <cause>Situational Awareness</cause>
+
+Person : 2
+Reference : 2
+Location Of Person.<aircraft>Aircraft</aircraft> : X
+Location In <aircraft>Aircraft</aircraft> : <part>Flight Deck</part>
+Reporter Organization : Air Carrier
+Function.Flight Crew : Pilot Flying
+Function.Flight Crew : Captain
+Qualification.Flight Crew : Air Transport Pilot (ATP)
+Qualification.Flight Crew : Multiengine
+Qualification.Flight Crew : Instrument
+ASRS Report Number.Accession Number : 1629287
+Human Factors : <cause>Situational Awareness</cause>
+
+Events
+Anomaly.<aircraft>Aircraft</aircraft> Equipment Problem : Critical
+Anomaly.ATC Issue : All Types 
+Anomaly.Deviation - Procedural : Other / Unknown
+Detector.Person : Flight Crew
+When Detected : In-flight
+Result.Flight Crew : Overcame Equipment Problem
+
+Assessments
+Contributing Factors / Situations : <aircraft>Aircraft</aircraft>
+Contributing Factors / Situations : Procedure
+Primary Problem : <aircraft>Aircraft</aircraft>
+
+Narrative: 1
+So we had multiple <failure>strange events</failure> on cruise and descent. During cruise we noticed an <part>execute light</part> on the <part>FMS.</part> Neither of us was sure what the <part>execute light</part> was for and the Captain scrolled through the <part>FMS</part> pages to try to figure out what wasn't executed. We were in normal cruise as I recall and had recently stepped to FL 370. Somewhere through the scrolling of pages the <part>plane</part> went into continuous thrust mode and started <failure>slowing down</failure> to <failure>drift down</faiure> speed. Neither of us executed the <failure>drift-down.</failure> Neither of us even attempted to get drift down speed and altitude during the short flight to ZZZ. So I was not the designated Flying Pilot for the flight but I had control at the time and overrode the <part>auto-throttles</part> to keep us at cruise speed while the Captain attempted to fix the <part>FMS</part> and get us back to Econ cruise speed. Nothing happened but we were told by maintenance after the flight that the <aircraft>aircraft</aircraft> had done something similar on a previous flight. Secondly, on the descent while on the VNAV path the Captain extended the <part>speed brakes</part> and we got an "Unscheduled <part>stab trim</part> <failure>caution</failure> and an <part>autopilot</part> <failure>caution</failure>" no one touched the electric or <part>alternate trim</part> and the <part>autopilot</part> stayed engaged. We did not notice any changes in the <part>aircraft.</part> When I was about to run the QRH the message went away and we continued and mentioned the situation to maintenance. 
+
+And on the ATC side, not to be whining, but we did get the <cause>tight visual approach</cause> inside the final approach fix. The Captain went off automation as the glideslope would not have been able to be tracked on the <part>AP.</part> We started out high and then ended up <failure>low on the glideslope</failure> with a correction. We were able to make the 1000 foot stable gate on the glideslope just barely. However I am noting these things because it is my opinion that ATC needs to stop treating heavy <aircraft>Boeing 767s</aircraft> carrying cargo like we are <aircraft>CRJs</aircraft> capable of making aggressive last second maneuvers in the landing pattern. I realize that some of us more aggressive pilots can use skill to make things happen, but we should not have to. ATC needs to treat us like every other heavy, low maneuvering <aircraft>jet.</aircraft> This sort of situation could lead a less experienced pilot to make a mistake.
+
+For the <failure>drift-down</failure> situation, I felt we did a good job preventing the situation. No one freaked out or did anything radical and we corrected the problem. The <failure>unscheduled stab trim</failure> was handled without any major issues. However we are occasionally getting these strange <failure>cautions</failure> on the <part>auto-flight system</part> that pop up and then disappear. We shouldn't be getting them at all if the plane is not having any problems. It makes you have to decide whether you run a QRH or not and whether you need to write it up or not. It also creates a distraction and a feeling of distrust on the <part>aircraft.</part> This is not a good feeling, especially considering recent events. As to the visual approach, the Captain probably could have said "no" to the <cause>tight vector</cause> to final. We were in a left downwind to base and I could not see the runway but our vector was inside the FAF. We probably should have said no to the super <cause>tight vector.</cause> Once again, we made it work but should not have had to fly a heavy <aircraft>cargo plane</aircraft> that aggressively. 
+
+Narrative: 2 
+TWO EVENTS: 
+Ev. 1 - at cruise, 370. I had brought up the <part>VNAV Crz</part> (<part>Vertical Navigation Cruise</part>) page to look at the Econ speed. For some <cause>unexplained reason,</cause> <part>VNAV</part> commanded the thrust to CON (Continuous), and the speed to the EO (Engine Out) speed. The MCP altitude was set at 370, neither of us had made any change to the <part>CDU.</part> The <part>thrust levers</part> had to be prevented from <failure>retarding.</failure> Pushing the <part>CRZ (Cruise) button</part> on the <part>TMSP</part> (<part>Thrust Mode Select Panel</part>) did not work. Eventually, I had to delete the speed in the <part>VNAV CRZ</part> page, at which point the <part>FMC</part> caught up and <part>VNAV</part> went back to CRZ. <part>AP</part> and <part>AT (Auto Throttle)</part> were engaged all this time. No altitude or lateral deviations were observed. 
+
+Ev. 2 - On the arrival into ZZZ, we descending 13000, just coming up to [the next fix], when ATC cleared us to descend 11000. I selected 11000, hit the <part>button on the MCP</part> and to help the descent, started to deploy the <part>speedbrakes.</part> We were at 280 KIAS. The '<part>AutoPilot</part>" and '<failure>Unscheduled STAB TRIM</failure>' came on the <part>EICAS</part> for 1-2 seconds before disappearing. The <part>AP</part> did not disengage. No further incidents, no lateral nor vertical deviations were noted. We landed without further incident.
+
+This flight seemed to have a couple of <cause>glitches</cause> in the <part>software</part> in the <part>FMC.</part> It was really inexplicable that the thrust went to CON without either of us selecting any other mode, either from the TMSP or in the VNAV CRZ page. While it may be possible that one of us could have hit the EO prompt, we were pretty sure that did not happen. And in any case, the <part>EXEC</part> <part>(Execute) light</part> would have been high-lighted. Neither of us saw that. As for the <failure>Uncommanded STAB TRIM,</failure> it appears that the <part>AP</part> was trying to compensate for a <failure>pitch movement,</failure> but the <aircraft>aircraft</aircraft> was not pitching down at all, we were leveling at 13000, on speed at 280 KIAS, 11000 was selected and the <part>MCP button</part> depressed once. Only when I started to deploy the <part>speedbrakes</part> (gently I might add), then the messages appeared on the <part>EICAS.</part> I had my hands and feet on the <part>flight controls</part> already, so was ready to respond to any deviations. Fortunately, the messages extinguished, the <part>AP</part> and <part>AT</part> remained engaged, and nothing untoward occurred. These two events appeared to be <cause>aberrations</cause>, from what we noted. Perhaps the <part>software</part> need to be updated, fine-tuned.
+
+Synopsis
+B767-300 flight crew reported various <failure>anomalies with the FMS</failure>
+
+
+
+ACN: 1626109 (3 of 50)
+
+Time / Day
+Date : 201903
+Local Time Of Day : 1801-2400
+
+Place
+Locale Reference.Airport : MSP.Airport
+State Reference : MN
+Altitude.MSL.Single Value : 4000
+
+Environment
+Flight Conditions : IMC
+Light : Dusk
+
+<aircraft>Aircraft</aircraft> : 1
+Reference : X
+ATC / Advisory.TRACON : M98
+<aircraft>Aircraft</aircraft> Operator : Air Carrier
+Make Model Name : <aircraft>Regional Jet 200 ER/LRM</aircraft> (<aircraft>CRJ200</aircraft>)
+Crew Size.Number Of Crew : 2
+Operating Under FAR Part : Part 121
+Flight Plan : IFR
+Mission : Passenger
+Flight Phase : Initial Approach
+Airspace.Class B : MSP
+
+<aircraft>Aircraft</aircraft> : 2
+Reference : Y
+ATC / Advisory.TRACON : M98
+<aircraft>Aircraft</aircraft> Operator : Air Carrier
+Make Model Name : Medium Transport, Low <part>Wing,</part> 2 <part>Turbojet Eng</part>
+Crew Size.Number Of Crew : 2
+Operating Under FAR Part : Part 121
+Flight Plan : IFR
+Mission : Passenger
+Flight Phase : Initial Approach
+Airspace.Class B : MSP
+
+Person : 1
+Reference : 1
+Location Of Person.<aircraft>Aircraft</aircraft> : X
+Location In <aircraft>Aircraft</aircraft> : <part>Flight Deck</part>
+Reporter Organization : Air Carrier
+Function.Flight Crew : Pilot Flying
+Function.Flight Crew : First Officer
+Qualification.Flight Crew : Instrument
+Qualification.Flight Crew : Multiengine
+Qualification.Flight Crew : Air Transport Pilot (ATP)
+ASRS Report Number.Accession Number : 1626109
+Analyst Callback : Attempted 
+
+Person : 2
+Reference : 2
+Location Of Person.<aircraft>Aircraft</aircraft> : X
+Location In <aircraft>Aircraft</aircraft> : <part>Flight Deck</part>
+Reporter Organization : Air Carrier
+Function.Flight Crew : Pilot Not Flying
+Function.Flight Crew : Captain
+Qualification.Flight Crew : Air Transport Pilot (ATP)
+Qualification.Flight Crew : Instrument
+Qualification.Flight Crew : Multiengine
+ASRS Report Number.Accession Number : 1626103
+
+Events
+Anomaly.Inflight Event / Encounter : <cause>Weather</cause> / <cause>Turbulence</cause>
+Anomaly.Inflight Event / Encounter : <cause>Wake Vortex</cause> Encounter
+Anomaly.Inflight Event / Encounter : <failure>Loss Of Aircraft Control</failure>
+Detector.Person : Flight Crew
+When Detected : In-flight
+Result.Flight Crew : Requested ATC Assistance / Clarification
+Result.Flight Crew : Regained <aircraft>Aircraft</aircraft> Control
+
+Assessments
+Contributing Factors / Situations : <cause>Environment</cause> - Non Weather Related
+Contributing Factors / Situations : <cause>Procedure</cause>
+Primary Problem : <failure>Ambiguous</failure>
+
+Narrative: 1 
+We were on final approach for Runway 12L in MSP. We were assigned 4000' and 170 kts. We were configured with <part>flaps</part> 20. Just prior to glideslope intercept at HAMML (10.9 DME), we experienced a sudden and momentary <cause>pocket of turbulence,</cause> possibly from the preceding <aircraft>Aircraft</aircraft> Y's <cause>wake.</cause> Our <aircraft>aircraft</aircraft> instantly <failure>rolled</failure> to a <failure>45 degree right bank,</failure> and a momentary <failure>pitch up attitude</failure> of approximately 5 degrees and brief <failure>stick shaker</failure> and the <part>autopilot</part> <failure>disconnected.</failure> I reacted immediately pushing the <part>nose</part> over, rolling the <part>wings</part> level and adding max thrust, all simultaneously. The encounter was very sudden and we were able to return to stable flight fairly quickly. Once stable we were still at assigned altitude but fast and were able to slow to assigned speed and engage the <part>autopilot.</part> We then captured the glideslope and finished configuring the <aircraft>aircraft</aircraft> prior to the FAF and made a safe and uneventful landing. I believe it was an encounter of <cause>wake turbulence</cause> from the <aircraft>Aircraft</aircraft> ahead of us. Even though our <aircraft>aircraft</aircraft> experienced the <failure>stick shaker,</failure> we were at a safe airspeed and we believe it was triggered by the sudden <failure>increased load factor</failure> associated with the <cause>turbulence.</cause> Once at the gate we confirmed that there were no injuries and we contacted Maintenance to report our encounter with <cause>severe turbulence.</cause> We encountered a pocket of <cause>severe turbulence</cause> on approach. I strongly believe it was due to the preceding <cause>aircraft's wake.</cause> 
+
+Narrative: 2 
+On final approach into MSP at approximately 4000' MSL prior to glide slope intercept with <part>flaps</part> at 20 we encountered <cause>severe turbulence</cause> that led to a significant <failure>roll upset</failure> of about 45 degrees or more to the right, and about a <failure>5 degree pitch up.</failure> The <failure>roll upset</failure> caused the <part>autopilot</part> to <failure>disengage</failure> and the <failure>stick shaker</failure> was immediately activated. The FO (First Officer) was PF (Pilot Flying) and was able to promptly recover the <aircraft>aircraft</aircraft> once normal control was regained. At the time of the incident we were assigned and flying 170 kts IAS as assigned by ATC. I believe the <failure>stick shaker</failure> activation was caused by the <failure>sudden pitch up</failure> and <failure>increase in load factor,</failure> as the airspeed did not decrease significantly. The airspeed increased normally with the application of max power and once control was regained we reduced power to prevent a <part>flap</part> overspeed having confirmed that normal control and flight was regained. The recovery was prompt and the <aircraft>aircraft</aircraft> did not deviate any more than 100' from the altitude that we were at for the segment of the approach. We were able to re-engage the <part>autopilot</part> and intercept the glide slope shortly after and complete the approach without further incident. I queried ATC about our preceding traffic and they said that it was an <aircraft>Aircraft</aircraft> Y, which shouldn't create <cause>significant wake.</cause> I am not sure if it was <cause>wake turbulence</cause> or a <cause>pocket of turbulence</cause> in the cloud. We landed without incident and taxied to the gate. We ensured that all passengers and crew were okay, and contacted Maintenance to have them inspect the <aircraft>aircraft</aircraft> following the <cause>severe turbulence</cause> encounter. I believe the cause was either <cause>wake turbulence</cause> or an <cause>area of turbulence</cause> embedded in the cloud. 
+
+Synopsis:
+CRJ-200 flight crew reported encountering <cause>turbulence</cause> on approach into MSP that was possibly related to the Medium Transport they were following. 
