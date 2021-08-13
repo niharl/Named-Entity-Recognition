@@ -17,3 +17,6 @@
 Screenshot:
 
 <img src = "https://github.com/niharl/Named-Entity-Recognition/blob/main/NER%20Annotation%20App/Screenshot.png?raw=true" width = 800>
+
+## Authors
+* **Nihar Lohan** - August 2021
